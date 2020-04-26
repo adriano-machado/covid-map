@@ -282,7 +282,7 @@ export default function App() {
         //   caption:"BLABLBALBAL",
         // })
         // console.log(chart.getChartAttribute())
-        chart.resizeTo('100%', 800);
+        chart.resizeTo('100%', window.innerWidth > 600 ? 800 : 450);
       },
       beforedataupdate(e, d) {
         // console.log(e.sender.id,'antes')
