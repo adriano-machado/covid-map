@@ -970,6 +970,16 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@fusioncharts/charts@^3.15.1":
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/charts/-/charts-3.15.1.tgz#0b748a8f31ac637225cb65dfd83655f705c8286b"
+  integrity sha512-NP1R8xYfMrfYqdjAB1S3KcvD7Bh/zUupu9auTi7e1i/uhRx04rE/wQrcSjJVw+DehtgkM7nezj3cbb92HCltHw==
+  dependencies:
+    "@babel/runtime" "7.4.5"
+    "@fusioncharts/core" "^1.0.3"
+    "@fusioncharts/features" "^1.0.3"
+    "@fusioncharts/utils" "^1.0.3"
+
 "@fusioncharts/charts@^3.15.1-sr.1":
   version "3.15.1-sr.1"
   resolved "https://registry.yarnpkg.com/@fusioncharts/charts/-/charts-3.15.1-sr.1.tgz#29efeda57ff7ff3f0503a2ceb5db5d18b9a12738"
@@ -980,7 +990,7 @@
     "@fusioncharts/features" "^1.0.4"
     "@fusioncharts/utils" "^1.0.4"
 
-"@fusioncharts/constructor@^1.0.4":
+"@fusioncharts/constructor@^1.0.3", "@fusioncharts/constructor@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@fusioncharts/constructor/-/constructor-1.0.4.tgz#170567c52731c73c4d13db947743f8e5e5d58cba"
   integrity sha512-qWp8iwMDWcEkzYZ8qyR7l8m/SXe7NSXim5EaoL292aLeHLfEPaF7MACvFFszW99M0X8aYgF4SxMNMUCW9YsWaQ==
@@ -989,7 +999,7 @@
     "@fusioncharts/core" "^1.0.4"
     "@fusioncharts/maps" "^3.15.1-sr.1"
 
-"@fusioncharts/core@^1.0.4":
+"@fusioncharts/core@^1.0.3", "@fusioncharts/core@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@fusioncharts/core/-/core-1.0.4.tgz#07e05750dfcc7de1568efa799b861cd6709a1e43"
   integrity sha512-KFBdx5xMjIHDHj2j/84aNXeKpnkAfX7FF+Kk/pKTL30uF43hyYI2cOT9A1K+d10D/g12/H5+bb7xnnfiP2G30Q==
@@ -999,7 +1009,7 @@
     core-js "^3.0.1"
     ramda "^0.25.0"
 
-"@fusioncharts/datatable@^1.0.4":
+"@fusioncharts/datatable@^1.0.3", "@fusioncharts/datatable@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@fusioncharts/datatable/-/datatable-1.0.4.tgz#270262211d2e3be6766951f0d7568827a49d2398"
   integrity sha512-4hX3yLNUldAOdMK0aniLtZ8zFsmaj9A83gww7AIFA2TAgO06sHzeGCDNdPh1gBl4v5jlsIc7m7fhUsoI5Jr9ZA==
@@ -1007,7 +1017,7 @@
     "@babel/runtime" "7.4.5"
     "@fusioncharts/utils" "^1.0.4"
 
-"@fusioncharts/features@^1.0.4":
+"@fusioncharts/features@^1.0.3", "@fusioncharts/features@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@fusioncharts/features/-/features-1.0.4.tgz#ddb84fb28175bb9d7dcf0909c96abdf89fd473f2"
   integrity sha512-crlzy44avHQOyWSLc2GxegvQBP4qKDyKefILK4vj/awlvVY/Rs8cp2SIgi5kjjnt3eQKJdu2SWAogWeugZY+bw==
@@ -1016,7 +1026,7 @@
     "@fusioncharts/core" "^1.0.4"
     "@fusioncharts/utils" "^1.0.4"
 
-"@fusioncharts/fusiontime@^2.1.1":
+"@fusioncharts/fusiontime@^2.1.0", "@fusioncharts/fusiontime@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@fusioncharts/fusiontime/-/fusiontime-2.1.1.tgz#796cadb6c32fb9442e3a9111521787d4620495ce"
   integrity sha512-Gnn0iZpoqRhf7MQTbioEaiuYjXb4zW7OjjAnXmOeRD1N+2RYY4Z3G6ukHUQ23bKnWLgNlB3il2oE11s2sVSfqQ==
@@ -1028,6 +1038,16 @@
     "@fusioncharts/utils" "^1.0.4"
     ramda "^0.25.0"
 
+"@fusioncharts/maps@^3.15.1":
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/maps/-/maps-3.15.1.tgz#c6ace02004cdd7d8f92e9bdb2a0ee8af534d399d"
+  integrity sha512-kl2eX256gNtLSdnKcegFubw58opeQ/mq1FtA2eiq5Dh9PFLGT809EyVWILlBfzK3VPe9XnM5mvPJDVJhtAFrPA==
+  dependencies:
+    "@babel/runtime" "7.4.5"
+    "@fusioncharts/charts" "^3.15.1"
+    "@fusioncharts/core" "^1.0.3"
+    "@fusioncharts/features" "^1.0.3"
+
 "@fusioncharts/maps@^3.15.1-sr.1":
   version "3.15.1-sr.1"
   resolved "https://registry.yarnpkg.com/@fusioncharts/maps/-/maps-3.15.1-sr.1.tgz#0d4b96325770894b114d2c8f51beefdb33b95fbc"
@@ -1037,6 +1057,16 @@
     "@fusioncharts/charts" "^3.15.1-sr.1"
     "@fusioncharts/core" "^1.0.4"
     "@fusioncharts/features" "^1.0.4"
+
+"@fusioncharts/powercharts@^3.15.1":
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/powercharts/-/powercharts-3.15.1.tgz#8be43ef5a7a2a699fac0e254ede9d249f535e7c2"
+  integrity sha512-80SUPTs7gg+dqTpMLI8Hvy5wRxmVRdc8Vek3c1oUStRvPFOr8ezcYUPsU6op4KBKAvkETbgeEzSU/kUk5Ph09w==
+  dependencies:
+    "@babel/runtime" "7.4.5"
+    "@fusioncharts/charts" "^3.15.1"
+    "@fusioncharts/core" "^1.0.3"
+    "@fusioncharts/utils" "^1.0.3"
 
 "@fusioncharts/powercharts@^3.15.1-sr.1":
   version "3.15.1-sr.1"
@@ -1048,13 +1078,25 @@
     "@fusioncharts/core" "^1.0.4"
     "@fusioncharts/utils" "^1.0.4"
 
-"@fusioncharts/utils@^1.0.4":
+"@fusioncharts/utils@^1.0.3", "@fusioncharts/utils@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@fusioncharts/utils/-/utils-1.0.4.tgz#f605d10e895f1ee72027b0c89639fd5a20e16f4a"
   integrity sha512-beQQJ4I6/robazpJeotZU4CZU7dOUchW9tNThrcSfLv56af7eHsf4tV/k3Nkgl44OFARxv9e+QZOAhnM8GB1OQ==
   dependencies:
     "@babel/runtime" "7.4.5"
     ramda "^0.25.0"
+
+"@fusioncharts/widgets@^3.15.1":
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/widgets/-/widgets-3.15.1.tgz#bc3933d4108abd32f14ccdaff2ae4bf3ac50b6a3"
+  integrity sha512-xtuW1O1eAGpkLAxPr8uk9ZiAr3DfD+P0eURVyrTJijaTktzo50s1M256io595daSgwQZ23U0k0Sy6ZnQHyg61g==
+  dependencies:
+    "@babel/runtime" "7.4.5"
+    "@fusioncharts/charts" "^3.15.1"
+    "@fusioncharts/constructor" "^1.0.3"
+    "@fusioncharts/core" "^1.0.3"
+    "@fusioncharts/features" "^1.0.3"
+    "@fusioncharts/utils" "^1.0.3"
 
 "@fusioncharts/widgets@^3.15.1-sr.1":
   version "3.15.1-sr.1"
@@ -4772,6 +4814,25 @@ fusioncharts@^3.15.1-sr.1:
     "@fusioncharts/powercharts" "^3.15.1-sr.1"
     "@fusioncharts/utils" "^1.0.4"
     "@fusioncharts/widgets" "^3.15.1-sr.1"
+    mutationobserver-shim "^0.3.3"
+    promise-polyfill "^8.1.3"
+
+fusionmaps@^3.15.1:
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/fusionmaps/-/fusionmaps-3.15.1.tgz#1117c2ac12579dedef9eb34a9de3010d44032ec7"
+  integrity sha512-G+WHwS4r7NnfB9hMA5p3sZOqpg4ajtDkffpBLilmDVQ4LVVR+89IdgoEhAlR3a9oGUVKbqm10XlqPKyyYatfXw==
+  dependencies:
+    "@babel/runtime" "7.4.5"
+    "@fusioncharts/charts" "^3.15.1"
+    "@fusioncharts/constructor" "^1.0.3"
+    "@fusioncharts/core" "^1.0.3"
+    "@fusioncharts/datatable" "^1.0.3"
+    "@fusioncharts/features" "^1.0.3"
+    "@fusioncharts/fusiontime" "^2.1.0"
+    "@fusioncharts/maps" "^3.15.1"
+    "@fusioncharts/powercharts" "^3.15.1"
+    "@fusioncharts/utils" "^1.0.3"
+    "@fusioncharts/widgets" "^3.15.1"
     mutationobserver-shim "^0.3.3"
     promise-polyfill "^8.1.3"
 
