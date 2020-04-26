@@ -12,6 +12,7 @@ import ReactFC from 'react-fusioncharts';
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 import api from './services/api';
 import worldJson from './const';
+// import { format } from './util/format';
 
 ReactFC.fcRoot(
   FusionCharts,
@@ -39,6 +40,8 @@ export default function App() {
     formatnumberscale: '1',
     showlabels: '0',
     thousandSeparator: '.',
+    // numberScaleUnit: 'K, M',
+    // numberScaleValue: '1000, 1000',
     // numbersuffix: ' confirmed cases',
     entityfillhovercolor: colorConfig.hoverColor,
 
@@ -392,7 +395,10 @@ export default function App() {
             if (pais.name === country.country) {
               objToMount[continentName] = [
                 ...objToMount[continentName],
-                { id: pais.id, value: country.cases },
+                {
+                  id: pais.id,
+                  value: country.cases,
+                },
               ];
             }
           });
