@@ -409,31 +409,37 @@ export default function App() {
         {
           id: 'NA',
           value: 0,
+          tooltext: 'No data available(api is not working)',
           link: 'newchart-json-NA',
         },
         {
           id: 'SA',
           value: 0,
+          tooltext: 'No data available(api is not working)',
           link: 'newchart-json-SA',
         },
         {
           id: 'AF',
           value: 0,
+          tooltext: 'No data available(api is not working)',
           link: 'newchart-json-AF',
         },
         {
           id: 'AS',
           value: 0,
+          tooltext: 'No data available(api is not working)',
           link: 'newchart-json-AS',
         },
         {
           id: 'AU',
           value: 0,
+          tooltext: 'No data available(api is not working)',
           link: 'newchart-json-AU',
         },
         {
           id: 'EU',
           value: 0,
+          tooltext: 'No data available(api is not working)',
           link: 'newchart-json-EU',
         },
       ];
