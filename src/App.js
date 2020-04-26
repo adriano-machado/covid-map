@@ -2,29 +2,27 @@ import React, { useEffect, useState } from 'react';
 import FusionCharts from 'fusioncharts';
 import Maps from 'fusioncharts/fusioncharts.maps';
 import World from 'fusioncharts/maps/fusioncharts.world';
-import Europe from 'fusioncharts/maps/fusioncharts.europe';
-import NorthAmerica from 'fusioncharts/maps/fusioncharts.northamerica';
-import SouthAmerica from 'fusioncharts/maps/fusioncharts.southamerica';
-import Asia from 'fusioncharts/maps/fusioncharts.asia';
-import Australia from 'fusioncharts/maps/fusioncharts.australia';
-import Africa from 'fusioncharts/maps/fusioncharts.africa';
+// import Europe from 'fusioncharts/maps/fusioncharts.europe';
+// import NorthAmerica from 'fusioncharts/maps/fusioncharts.northamerica';
+// import SouthAmerica from 'fusioncharts/maps/fusioncharts.southamerica';
+// import Asia from 'fusioncharts/maps/fusioncharts.asia';
+// import Australia from 'fusioncharts/maps/fusioncharts.australia';
+// import Africa from 'fusioncharts/maps/fusioncharts.africa';
 import ReactFC from 'react-fusioncharts';
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 import api from './services/api';
 import worldJson from './const';
 
-// import Europe from 'fusioncharts/maps/fusioncharts.europe';
-
 ReactFC.fcRoot(
   FusionCharts,
   Maps,
   World,
-  Europe,
-  NorthAmerica,
-  SouthAmerica,
-  Asia,
-  Australia,
-  Africa,
+  // Europe,
+  // NorthAmerica,
+  // SouthAmerica,
+  // Asia,
+  // Australia,
+  // Africa,
   FusionTheme
 );
 export default function App() {
