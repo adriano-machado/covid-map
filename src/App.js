@@ -276,7 +276,7 @@ export default function App() {
       ],
     },
     events: {
-      linkedItemOpened(e, d) {
+      linkedItemOpened(e) {
         const chart = FusionCharts(Object.keys(e.sender.link.items)[0]);
         // chart.setChartAttribute({
         //   caption:"BLABLBALBAL",
@@ -284,7 +284,7 @@ export default function App() {
         // console.log(chart.getChartAttribute())
         chart.resizeTo('100%', window.innerWidth > 600 ? 800 : 450);
       },
-      beforedataupdate(e, d) {
+      beforedataupdate(e) {
         // console.log(e.sender.id,'antes')
         if (e.sender.args.clickedEntity) {
           FusionCharts('chartobject-1').configureLink({
@@ -404,46 +404,7 @@ export default function App() {
           });
         });
       });
-      // objToMount.continentsData = continentsData;
-      objToMount.continentsData = [
-        {
-          id: 'NA',
-          value: 0,
-          tooltext: 'No data available(api is not working)',
-          link: 'newchart-json-NA',
-        },
-        {
-          id: 'SA',
-          value: 0,
-          tooltext: 'No data available(api is not working)',
-          link: 'newchart-json-SA',
-        },
-        {
-          id: 'AF',
-          value: 0,
-          tooltext: 'No data available(api is not working)',
-          link: 'newchart-json-AF',
-        },
-        {
-          id: 'AS',
-          value: 0,
-          tooltext: 'No data available(api is not working)',
-          link: 'newchart-json-AS',
-        },
-        {
-          id: 'AU',
-          value: 0,
-          tooltext: 'No data available(api is not working)',
-          link: 'newchart-json-AU',
-        },
-        {
-          id: 'EU',
-          value: 0,
-          tooltext: 'No data available(api is not working)',
-          link: 'newchart-json-EU',
-        },
-      ];
-      console.log(objToMount);
+      objToMount.continentsData = continentsData;
       setObjData(objToMount);
     }
     loadData();
