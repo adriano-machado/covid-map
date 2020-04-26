@@ -404,7 +404,39 @@ export default function App() {
           });
         });
       });
-      objToMount.continentsData = continentsData;
+      // objToMount.continentsData = continentsData;
+      objToMount.continentsData = [
+        {
+          id: 'NA',
+          value: 0,
+          link: 'newchart-json-NA',
+        },
+        {
+          id: 'SA',
+          value: 0,
+          link: 'newchart-json-SA',
+        },
+        {
+          id: 'AF',
+          value: 0,
+          link: 'newchart-json-AF',
+        },
+        {
+          id: 'AS',
+          value: 0,
+          link: 'newchart-json-AS',
+        },
+        {
+          id: 'AU',
+          value: 0,
+          link: 'newchart-json-AU',
+        },
+        {
+          id: 'EU',
+          value: 0,
+          link: 'newchart-json-EU',
+        },
+      ];
       console.log(objToMount);
       setObjData(objToMount);
     }
