@@ -34,11 +34,12 @@ export default function App() {
   };
   const globalChartOptions = {
     captionalignment: 'left',
-    subcaption: 'Measured in confirmed cases',
+    subcaption: 'Confirmed cases 2020',
     theme: 'fusion',
-    formatnumberscale: '0',
+    formatnumberscale: '1',
     showlabels: '0',
-    numbersuffix: ' confirmed cases',
+    thousandSeparator: '.',
+    // numbersuffix: ' confirmed cases',
     entityfillhovercolor: colorConfig.hoverColor,
 
     entitytooltext:
@@ -55,11 +56,11 @@ export default function App() {
   const chartConfigs = {
     type: 'world',
     width: '100%',
-    height: 700,
+    height: window.innerWidth > 600 ? 700 : 400,
     dataFormat: 'json',
     dataSource: {
       chart: {
-        caption: 'Worldwide Covid - Confirmed cases 2020',
+        caption: 'Worldwide Covid-19',
 
         ...globalChartOptions,
       },
@@ -84,7 +85,7 @@ export default function App() {
           id: 'NA',
           linkedchart: {
             chart: {
-              caption: 'North America Worldwide Covid - Confirmed cases 2020',
+              caption: 'North America Worldwide Covid-19',
               ...globalChartOptions,
             },
             colorrange: {
@@ -109,7 +110,7 @@ export default function App() {
           id: 'SA',
           linkedchart: {
             chart: {
-              caption: 'South America Covid - Confirmed cases 2020',
+              caption: 'South America Covid-19',
               ...globalChartOptions,
             },
             colorrange: {
@@ -134,7 +135,7 @@ export default function App() {
           id: 'AS',
           linkedchart: {
             chart: {
-              caption: 'Asia Covid - Confirmed cases 2020',
+              caption: 'Asia Covid-19',
 
               ...globalChartOptions,
             },
@@ -160,7 +161,7 @@ export default function App() {
           id: 'EU',
           linkedchart: {
             chart: {
-              caption: 'Europe Covid - Confirmed cases 2020',
+              caption: 'Europe Covid-19',
 
               ...globalChartOptions,
             },
@@ -186,7 +187,7 @@ export default function App() {
           id: 'AU',
           linkedchart: {
             chart: {
-              caption: 'Australia Covid - Confirmed cases 2020',
+              caption: 'Australia Covid-19',
 
               ...globalChartOptions,
             },
@@ -248,7 +249,7 @@ export default function App() {
           id: 'AF',
           linkedchart: {
             chart: {
-              caption: 'Africa Covid - Confirmed cases 2020',
+              caption: 'Africa Covid-19',
               ...globalChartOptions,
             },
             colorrange: {
