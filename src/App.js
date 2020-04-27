@@ -28,10 +28,23 @@ ReactFC.fcRoot(
 );
 export default function App() {
   const colorConfig = {
+    // RED THEME - Deaths
     hoverColor: '#FFF9C4',
     mainColor: '#FFE0B2',
     minColor: '#FFD74D',
-    maxColor: '#E65100',
+    maxColor: '#e44a00',
+
+    // GREEN THEME - Recovereds
+    // hoverColor: '#81c784',
+    // minColor: '#4caf50',
+    // mainColor: '#81c784',
+    // maxColor: '#388e3c',
+
+    // Blue THEME - Confirmed
+    // hoverColor: '#64b5f6',
+    // mainColor: '#1976d2',
+    // minColor: '#4791db',
+    // maxColor: '#115293',
   };
   const globalChartOptions = {
     captionalignment: 'left',
