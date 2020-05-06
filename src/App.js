@@ -90,7 +90,7 @@ export default function App() {
             code: colorConfig.minColor,
           },
           {
-            maxvalue: '1500000',
+            maxvalue: '1800000',
             code: colorConfig.maxColor,
           },
         ],
