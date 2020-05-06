@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/adriano-machado/demo-assets/blob/master/covidmap-assets.gif" alt="app mobile view" >
+<p align="center"><img src="https://github.com/adriano-machado/demo-assets/blob/master/covidmap-assets.gif" alt="app mobile view" height="500" width="1000" >
 </p>
 
 <br>
