@@ -1,6 +1,6 @@
-<!-- <p align="center"><img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShowsMobileView.gif" alt="app mobile view" >
+<p align="center"><img src="https://github.com/adriano-machado/demo-assets/blob/master/covidmap-assets.gif" alt="app mobile view" >
 </p>
- -->
+
 <br>
  <p align="center"> <a  href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a  href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
